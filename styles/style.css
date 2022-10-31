@@ -1,0 +1,113 @@
+@import url(./layout.css);
+
+
+ body > nav ul {
+
+    display: flex;
+    justify-content: 
+    space-between;
+    background-color: rgb(95, 198, 233);
+    line-height: 8em;
+
+
+ }
+
+
+ body > nav li {
+    padding: 1em;
+    font-size: 20;
+
+
+ }
+
+ body > nav ul img{
+    width: 10%;
+    height: 20%;
+ }
+
+ body > nav a{
+    text-decoration: none;
+    color: white;
+ }
+
+ body > nav a:hover{
+    color: black;
+ }
+
+ body > header{
+    height: 300px;
+    display: flex;
+ }
+
+ .content{
+    padding: 1em;
+ }
+
+ main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em;
+    gap: 3em;
+    
+ }
+ 
+article{
+    width: 200px;
+    padding: 1em;
+    outline: 2px solid ;
+    
+}
+
+article img{
+    width: 100%;
+}
+
+article footer{
+    justify-content: center;
+    margin: 1em;
+    background-color: grey;
+    display: flex;
+    width: 70%;
+    height: 10%;
+    font-size: 20;
+}
+
+aside{
+
+    display: flex;
+    width: 30%;
+    order: 1;
+    margin: 3em;
+    font-size: 25;
+    margin: 1em;
+
+    
+}
+
+aside > ul{
+    outline: 2px solid;
+    font-size: 25;
+    margin: 1em;
+}
+
+aside > ul img{
+    width: 20%;
+    height: 20%;
+}
+
+aside ul li:nth-of-type(odd) {
+    background-color: gray;
+}
+
+
+aside > ul h2{
+    background-color: white;
+    font-size: 35;
+    margin: 0.5em;
+    
+}
+aside ul li{
+    margin: 1em;
+    display: flex;
+}
